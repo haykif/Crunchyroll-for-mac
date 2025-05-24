@@ -1,0 +1,10 @@
+{
+  "extension_name": {
+    "message": "Crunchyroll Launcher",
+    "description": "Nom affiché de l'extension dans Safari"
+  },
+  "extension_description": {
+    "message": "Ouvre Crunchyroll instantanément depuis la barre Safari.",
+    "description": "Affiche la description de l’extension dans les réglages Safari."
+  }
+}

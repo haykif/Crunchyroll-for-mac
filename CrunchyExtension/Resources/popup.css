@@ -1,0 +1,45 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 120px;
+    padding: 10px;
+    font-family: system-ui;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+button {
+    background-color: #f47521;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #d96217;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+    }
+
+    button {
+        background-color: #f47521;
+        color: white;
+    }
+
+    button:hover {
+        background-color: #d96217;
+    }
+}
